@@ -1,0 +1,25 @@
+$Color:red;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: cyan;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    .box{
+        width: 28%;
+        height: 250px;
+        background-color: $Color;
+        border-radius: 20px;
+        box-shadow: 0 0 10px black;
+    }
+
+}
